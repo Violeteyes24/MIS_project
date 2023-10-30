@@ -1,0 +1,168 @@
+
+/*
+.container{
+    display: flex;
+    justify-content: right;
+}
+
+/*
+.options{
+    
+    border: solid;
+    padding: 5px;
+    justify-content: space-between;
+    margin: 1rem;
+}*/
+
+body {
+  font-family: "Teko";
+    margin: 0;
+    padding: 0;
+    background-image: url('img/laser.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+
+
+.navbar {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 1rem;
+  }
+
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+  }
+
+  .navbar ul li:hover, .navbar ul li a:hover {
+        background-color: rgb(243, 12, 12);
+        border-radius: 1rem;
+        color: black;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .yourself {
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: center;
+    max-width: 60%;
+    padding: 1rem;
+    border-radius: 10rem;
+    background-color: rgb(0, 0, 0);
+    /*background-image: linear-gradient(to right, black 50%, red );*/
+    color:  rgb(255, 0, 0);
+    border-right: solid;
+    border-top: solid;
+    border-right-width: 1rem;
+    border-right-color: rgb(243, 12, 12);
+    border-right-width: .4rem;
+    border-top-width: .1rem;
+    border-top-color: rgb(243, 12, 12);
+    
+    
+  }
+
+  .ycontent{
+    padding: 2rem;
+    margin: auto;
+    max-width: 80%;
+    
+  }
+
+  .questions{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(243, 12, 12);;
+    
+  }
+
+  .button{
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(243, 12, 12);;
+    background-color: black;
+  }
+
+  .button:hover{
+    background-color: rgb(243, 12, 12);
+    color: black;
+  }
+
+  .text{
+    font-style: italic;
+    background-color: black;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+  }
+
+
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form textarea {
+    height: 120px;
+  }
+
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #555;
+  }
+
+  input[type=radio]{
+    accent-color: black;
+}
+  

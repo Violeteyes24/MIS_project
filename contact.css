@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/pc2.jpg');
+
+    
+  }
+
+.navbar {
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 1rem;
+  }
+
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+  }
+
+  .navbar ul li:hover, .navbar ul li a:hover {
+        background-color: rgb(37, 157, 204);
+        color: black;
+        border-radius: 1rem;
+        
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  
+    border-radius: 3rem;
+    padding: 2rem;
+    padding-left: 1rem;
+    background-color: rgb(14, 47, 109);
+    color: white;
+    opacity: 0.95;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+  }
+
+  .contact-form textarea {
+    height: 120px;
+  }
+
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 1rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: gainsboro;
+    color: black;
+    
+  }
